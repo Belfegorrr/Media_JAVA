@@ -11,6 +11,11 @@ public class Operadores {
             int nota2 = 7;
             int nota3 = 5;
             int nota4 = 6;
+            System.out.println("*** Notas ***");
+            System.out.println(nota1);
+            System.out.println(nota2);
+            System.out.println(nota3);
+            System.out.println(nota4);
 
             int soma = nota1 + nota2 + nota3 + nota4;
 
