@@ -10,5 +10,10 @@ public class Casting {
         
         double l3 = l1;
         System.out.println(l3);
+
+        System.out.println("*** Wrapper do short JAVA");
+
+        Short x = Short.valueOf(l2);
+
     }
 }
