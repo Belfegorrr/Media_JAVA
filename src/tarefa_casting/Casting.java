@@ -3,12 +3,12 @@ package Media_JAVA.src.tarefa_casting;
 public class Casting {
     
     public static void main(String args[]) {
-        boolean status = true;
-        System.out.println(status);
-        Boolean status2 = Boolean.TRUE;
-        System.out.println(status2);
+        long l1 = 1010101;
+        System.out.println(l1);
+        short l2 = (short) l1;
+        System.out.println(l2);
         
-        boolean status3 = Boolean.FALSE;
-        System.out.println(status3);
+        double l3 = l1;
+        System.out.println(l3);
     }
 }
