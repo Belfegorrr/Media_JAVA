@@ -14,6 +14,8 @@ public class Casting {
         System.out.println("*** Wrapper do short JAVA");
 
         Short x = Short.valueOf(l2);
+        System.out.println(x);
+
 
     }
 }
