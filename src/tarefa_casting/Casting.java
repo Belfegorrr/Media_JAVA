@@ -15,5 +15,7 @@ public class Casting {
 
         Short x = Short.valueOf(l2);
         System.out.println(x);
+
+        
     }
 }
