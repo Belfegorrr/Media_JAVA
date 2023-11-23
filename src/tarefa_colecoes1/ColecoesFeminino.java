@@ -20,7 +20,7 @@ public class ColecoesFeminino {
     }
     @Override
     public String toString() {
-        return "Colecoes [nome=" + nome + ", sexo=" + sexo + "]";
+        return "Mulheres: nome " + nome + ", sexo " + sexo;
     }
 
     public String getSexo() {

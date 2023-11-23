@@ -1,7 +1,6 @@
 package Media_JAVA.src.tarefa_colecoes1;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Scanner;
 
 public class Pessoa {
@@ -21,10 +20,10 @@ public class Pessoa {
             System.out.println("Deseja cadastrar outra pessoa? s ou S para sim! ");
             controle = leia.next().charAt(0);
 
-            if( s == "Feminino" || s == "feminino"){
+            if( s.equals("F") || s.equals("f")){
                 ColecoesFeminino pf = new ColecoesFeminino(n, s);
                 listaFeminino.add(pf);
-            }else if(s == "Masculino" || s == "masculino"){
+            }else if(s.equals("M")  || s.equals("m") ){
                 Colecoes p = new Colecoes(n, s);
                 lista.add(p);
             } else {
@@ -33,11 +32,15 @@ public class Pessoa {
 
         } while (controle == 's' || controle == 'S');
 
+        System.out.println("*** Coleções Masculino ***");
+
         for(Colecoes i: lista){
             System.out.println(i);
         }
-        for(ColecoesFeminino i: listaFeminino){
-            System.out.println(i);
+
+         System.out.println("*** Coleções Feminino ***");
+        for(ColecoesFeminino j: listaFeminino){
+            System.out.println(j);
         }
     }
 }

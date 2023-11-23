@@ -2,7 +2,8 @@ package Media_JAVA.src.tarefa_colecoes1;
 
 
 import  java.util.ArrayList;
-// import  java.util.Collections;
+import java.util.Comparator;
+import  java.util.Collections;
 import  java.util.List;
 
 
@@ -30,7 +31,7 @@ public class Colecoes {
     }
     @Override
     public String toString() {
-        return "Colecoes [nome=" + nome + ", sexo=" + sexo + "]";
+        return "Homens: nome " + nome + ", sexo " + sexo;
     }
 
     public String getSexo() {
