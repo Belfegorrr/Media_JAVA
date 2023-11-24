@@ -1,12 +1,5 @@
 package Media_JAVA.src.tarefa_colecoes1;
 
-
-import  java.util.ArrayList;
-import java.util.Comparator;
-import  java.util.Collections;
-import  java.util.List;
-
-
 /**
  * 2 ArrayList separando pessoas pelo sexo
  */
@@ -29,12 +22,13 @@ public class Colecoes {
     public String getNome() {
         return nome;
     }
+    
+    public String getSexo() {
+        return sexo;
+    }
+    
     @Override
     public String toString() {
         return "Homens: nome " + nome + ", sexo " + sexo;
-    }
-
-    public String getSexo() {
-        return sexo;
     }
 }
